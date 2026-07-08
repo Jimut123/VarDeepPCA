@@ -2,6 +2,8 @@
 
 A lightweight, variational deep neural network framework designed to restore and refine degraded segmentation maps in out-of-distribution (OOD) medical images by leveraging intrinsic geometric priors.
 
+![VarDeepPCA Graphical Abstract](assets/melba_vardeep.png)
+
 ## Overview
 
 Deep neural networks (DNNs) frequently fail when encountering medical images from different scanners or acquisition protocols. VarDeepPCA addresses this critical challenge without requiring target-domain data or extensive retraining by:
@@ -32,7 +34,7 @@ The framework explicitly learns the geometric constraints and variations present
 
 ## Experimental Validation
 
-Please check the paper
+For detailed experimental results and analysis, please refer to the papers listed below.
 
 ### Clinical Applications
 
@@ -52,12 +54,32 @@ Comprehensive comparisons against **15 existing methods** demonstrate that VarDe
 - Reduces errors without requiring additional training data
 - Provides meaningful uncertainty estimates for clinical decision support
 
+## Resources
+
+### 📄 Papers
+
+- **[MELBA 2026 Journal Publication](papers/melba_vardeep.pdf)** - Learning a Sampling-Free Variational DNN Plugin from Tiny Training Sets to Refine OOD Segmentation With Uncertainty Estimation
+  - Authors: Jimut B. Pal, Suyash P. Awate
+  - Journal: Machine Learning for Biomedical Imaging
+  - Volume: 2026, Issue: June 2026
+  - Pages: 327–358
+  - DOI: https://doi.org/10.59275/j.melba.2026-6d54
+
+- **[WACV 2025 Conference Paper](papers/shape_prior_wacv_24.pdf)** - Reviving Poor Object Segmentations in OOD Medical Images using Variational-Deep-PCA Modeling on Segmentation Maps with Sampling-Free Learning
+  - Authors: Jimut B. Pal, Shantanu Welling, Himali Saini, Suyash P. Awate
+  - Proceedings: Winter Conference on Applications of Computer Vision (WACV)
+  - Month: February 2025
+  - Pages: 9346–9355
+
+### 🎤 Presentations
+
+- **[MELBA Conference Slides](slides/melba_vardeep_slide.pdf)** - Presentation slides from the MELBA 2026 conference
+
 ## Citation
 
 If you use VarDeepPCA in your research, please cite:
 
 ### WACV 2025 Publication
-
 ```bibtex
 @InProceedings{Pal_2025_WACV,
     author    = {Pal, Jimut B. and Welling, Shantanu and Saini, Himali and Awate, Suyash P.},
@@ -70,7 +92,6 @@ If you use VarDeepPCA in your research, please cite:
 ```
 
 ### MELBA 2026 Journal Publication
-
 ```bibtex
 @article{melba:2026:017:pal,
     title = "Learning a Sampling-Free Variational DNN Plugin from Tiny Training Sets to Refine OOD Segmentation With Uncertainty Estimation",
@@ -86,6 +107,7 @@ If you use VarDeepPCA in your research, please cite:
 }
 ```
 
+## Application Areas
 
 ### When to Use VarDeepPCA
 
@@ -116,3 +138,16 @@ If you use VarDeepPCA in your research, please cite:
 - **Generalizable**: Consistent improvements across diverse medical applications
 - **Interpretable**: Provides uncertainty estimates for clinical validation
 
+## License
+
+This project is licensed under the Creative Commons Zero v1.0 Universal (CC0) License - see LICENSE file for details.
+
+## Contact & Contributing
+
+For questions, issues, or contributions, please reach out through GitHub issues or contact the authors directly.
+
+---
+
+**Authors**: Jimut B. Pal, Suyash P. Awate (with contributions from Shantanu Welling, Himali Saini)
+
+**Last Updated**: July 2026
