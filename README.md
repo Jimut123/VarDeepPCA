@@ -1,4 +1,4 @@
-# VarDeepPCA: Sampling-Free Variational Deep Learning for OOD Medical Image Segmentation
+# VarDeepPCA: Sampling-Free Variational DNN model for OOD Medical Image Segmentation
 
 A lightweight, variational deep neural network framework designed to restore and refine degraded segmentation maps in out-of-distribution (OOD) medical images by leveraging intrinsic geometric priors.
 
@@ -72,7 +72,7 @@ Comprehensive comparisons against **15 existing methods** demonstrate that VarDe
 
 ### 🎤 Presentations
 
-- **[MELBA Conference Slides](slides/melba_vardeep_slide.pdf)** - Presentation slides from the MELBA 2026 conference
+- **[MELBA Journal Slides](slides/melba_vardeep_slide.pdf)** - Presentation slides from the MELBA 2026 Journal
 
 ## Citation
 
@@ -140,7 +140,3 @@ If you use VarDeepPCA in your research, please cite:
 
 
 ---
-
-**Authors**: Jimut B. Pal, Suyash P. Awate (with contributions from Shantanu Welling, Himali Saini)
-
-**Last Updated**: July 2026
