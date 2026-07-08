@@ -32,6 +32,8 @@ The framework explicitly learns the geometric constraints and variations present
 
 ## Experimental Validation
 
+Please check the paper
+
 ### Clinical Applications
 
 VarDeepPCA has been validated across **4 distinct clinical applications** using **14 publicly available datasets**:
@@ -55,6 +57,7 @@ Comprehensive comparisons against **15 existing methods** demonstrate that VarDe
 If you use VarDeepPCA in your research, please cite:
 
 ### WACV 2025 Publication
+
 ```bibtex
 @InProceedings{Pal_2025_WACV,
     author    = {Pal, Jimut B. and Welling, Shantanu and Saini, Himali and Awate, Suyash P.},
@@ -67,6 +70,7 @@ If you use VarDeepPCA in your research, please cite:
 ```
 
 ### MELBA 2026 Journal Publication
+
 ```bibtex
 @article{melba:2026:017:pal,
     title = "Learning a Sampling-Free Variational DNN Plugin from Tiny Training Sets to Refine OOD Segmentation With Uncertainty Estimation",
@@ -82,7 +86,6 @@ If you use VarDeepPCA in your research, please cite:
 }
 ```
 
-## Application Areas
 
 ### When to Use VarDeepPCA
 
@@ -113,16 +116,3 @@ If you use VarDeepPCA in your research, please cite:
 - **Generalizable**: Consistent improvements across diverse medical applications
 - **Interpretable**: Provides uncertainty estimates for clinical validation
 
-## License
-
-This project is licensed under the Creative Commons Zero v1.0 Universal (CC0) License - see LICENSE file for details.
-
-## Contact & Contributing
-
-For questions, issues, or contributions, please reach out through GitHub issues or contact the authors directly.
-
----
-
-**Authors**: Jimut B. Pal, Suyash P. Awate (with contributions from Shantanu Welling, Himali Saini)
-
-**Last Updated**: July 2026
