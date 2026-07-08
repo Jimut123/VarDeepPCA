@@ -54,7 +54,6 @@ Comprehensive comparisons against **15 existing methods** demonstrate that VarDe
 - Reduces errors without requiring additional training data
 - Provides meaningful uncertainty estimates for clinical decision support
 
-## Resources
 
 ### 📄 Papers
 
@@ -138,13 +137,7 @@ If you use VarDeepPCA in your research, please cite:
 - **Generalizable**: Consistent improvements across diverse medical applications
 - **Interpretable**: Provides uncertainty estimates for clinical validation
 
-## License
 
-This project is licensed under the Creative Commons Zero v1.0 Universal (CC0) License - see LICENSE file for details.
-
-## Contact & Contributing
-
-For questions, issues, or contributions, please reach out through GitHub issues or contact the authors directly.
 
 ---
 
